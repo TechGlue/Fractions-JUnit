@@ -2,6 +2,15 @@ package fraction;
 
 public class Fraction {
 	private int num;
+
+	public int getNum() {
+		return num;
+	}
+
+	public int getDen() {
+		return den;
+	}
+
 	private int den;
 	
 	public Fraction(int num, int den) {
@@ -28,8 +37,11 @@ public class Fraction {
 	
 	private int findGCD(int a, int b) {
 		if (b == 0) {
-			return a
+			return a;
 		}
+		return 0;
 	}
+
+
 	
 }
